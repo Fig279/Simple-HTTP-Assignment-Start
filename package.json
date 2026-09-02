@@ -1,0 +1,28 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "Simple HTTP Assignment",
+  "homepage": "https://github.com/Fig279/Simple-HTTP-Assignment-Start#readme",
+  "bugs": {
+    "url": "https://github.com/Fig279/Simple-HTTP-Assignment-Start/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fig279/Simple-HTTP-Assignment-Start.git"
+  },
+  "license": "ISC",
+  "author": "FG",
+  "type": "commonjs",
+  "main": "eslint.config.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.9.1",
+    "global": "^4.4.0",
+    "globals": "^17.12.0"
+  }
+}
